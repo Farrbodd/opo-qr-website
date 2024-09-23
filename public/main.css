@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #1e7afd , #020b1c);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0 20px;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-links img {
+    width: 180px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #d3d3d3;
+}
